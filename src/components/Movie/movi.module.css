@@ -63,8 +63,9 @@
 .btn {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
-  margin: 12px;
+  margin: 8px 12px;
 }
 .left {
   display: flex;
@@ -77,7 +78,8 @@
   font-weight: 500;
   color: wheat;
   font-size: 14px;
-  margin-bottom: 8px 12px;
+  margin: 8px;
+  padding: 0 12px;
 }
 
 .genre_div {
@@ -86,7 +88,9 @@
   display: flex;
   gap: 2px;
   color: wheat;
+  padding: 0 12px;
   flex-direction: row;
+  margin-bottom: 12px;
   align-items: center;
 }
 .badge {
